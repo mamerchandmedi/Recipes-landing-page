@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.header, .box, .footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+
+}
