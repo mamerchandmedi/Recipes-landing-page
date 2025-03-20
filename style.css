@@ -1,6 +1,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: orange;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,13 +15,17 @@ body {
     background-color: rgb(1, 1, 129);
     width: 100%;
     display: flex;
-    padding: 10px;
+    flex-wrap: wrap;
+    padding: 16px;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 0%;
+    padding-left: 50px; /* Ensure consistent left padding */
+    text-align: left; /* Align text to the left */
 }
 
 .nav__list{
@@ -32,7 +38,43 @@ body {
     }
 
 
+ .box1{  
+    background-color: rgb(1, 1, 129);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    padding: 50px;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    padding-left: 50px; /* Match padding with .header */
+    text-align: left; /* Align text to the left */
+    }
+    
+.box1__title{
+    display: flex;
+    color: rgb(202, 8, 8);
+    flex-direction: column;
+    width: 34%;
+    justify-content: right;
 
+
+    }
+.box1__text{
+    display: flex;
+    color: green;
+    font-size: 20px;
+    }
+.image-placeholder{
+    display: flex;
+    justify-items: center;
+    background-color: violet;
+    width: 400px;
+    height: 100px;
+    padding: 40px;
+    border: 10px solid yellow;
+    }
 .footer {
     background-color: rgb(1, 1, 129);
     width: 100%;
