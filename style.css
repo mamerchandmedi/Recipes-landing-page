@@ -57,12 +57,18 @@ body {
     width: 34%;
     justify-content: right;
 
-
     }
 .box1__text{
     display: flex;
     color: green;
     font-size: 20px;
+    }
+.box1__button {
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        width: 90%;
     }
 .image-placeholder{
     display: flex;
@@ -80,10 +86,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     font-size: 1.5rem;
     font-weight: bold;
     flex-direction: column;
+    gap: 30px;
 }
 .boxes-inside-box2{
     display: flex;
@@ -109,10 +116,67 @@ body {
     height: 10vh;
 }
 .text-below-rounded-box1{
+    display: flex;
     width: 10vh;
     overflow: hidden;
-    font-size: xx-small;
-    text-align: center;
+    font-size: 10px;
+    align-self: center;
+}
+
+
+.box3{  
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 35vh;
+    padding: 120px;
+    }
+.box3__quote{
+    font-style: light italic;
+    color: #1F2937;
+    font-size: 36px;
+}
+.box3__author{
+    font-style: bold;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: right; /* Align text to the right */
+}
+
+.box4{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box4_content{
+    background-color:#3882F6;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+/* .box4_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+ */
+
+.box4__button{
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white; /* Define a white border with a solid style */
+    border-radius: 10px;
+    border-color: white;
 }
 .footer {
     background-color: rgb(1, 1, 129);
