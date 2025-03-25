@@ -1,8 +1,8 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 10px; /* Reset body margins */
     padding: 100px; /* Reset body padding */
-    background-color: orange;
+    background-color: black;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,9 @@ body {
 
 
 .header {
-    background-color: rgb(1, 1, 129);
+    background-color:#1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
@@ -38,13 +40,13 @@ body {
 
 
  .box1{  
-    background-color: rgb(1, 1, 129);
+    background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: row;
     height: 35vh;
     padding: 50px;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
     padding-left: 50px; /* Match padding with .header */
     text-align: left; /* Align text to the left */
@@ -52,7 +54,9 @@ body {
     
 .box1__title{
     display: flex;
-    color: rgb(202, 8, 8);
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
     flex-direction: column;
     width: 34%;
     justify-content: right;
@@ -60,25 +64,30 @@ body {
     }
 .box1__text{
     display: flex;
-    color: green;
-    font-size: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight:initial;
+
     }
 .box1__button {
-        background-color: blue;
-        color: white;
+        background-color: #3882F6;
+        color: #E5E7EB;
         border: none;
-        border-radius: 10px;
-        width: 90%;
+        border-radius: 8px;
+        width: 40%;
+        font-size: 18px;
+        font-weight:initial;
     }
 .image-placeholder{
     display: flex;
+    flex-direction: column;
     justify-items: center;
-    background-color: red;
+    background-color: gray;
     width: 400px;
     height: 100px;
     padding: 40px;
-    border: 10px solid yellow;
-    }
+    border: 10px solid gray;
+}
 
 .box2{  
     display: flex;
@@ -110,7 +119,7 @@ body {
 .rounded-box1{
     background-color: white;
     padding: 20px;
-    border: 2px solid blue;
+    border: 5px solid #3882F6;
     border-radius: 25px; /* Makes the corners rounded */
     width: 10vh;
     height: 10vh;
@@ -176,16 +185,18 @@ body {
     color: white;
     border: 2px solid white; /* Define a white border with a solid style */
     border-radius: 10px;
-    border-color: white;
+    width: 10%;
+    height: 30%;
+    align-self: center;
 }
 .footer {
-    background-color: rgb(1, 1, 129);
+    background-color: #1F2937;
     width: 100%;
+    height:10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
