@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
   }
 
 
@@ -27,6 +28,7 @@ body {
     margin-bottom: 0%;
     padding-left: 50px; /* Ensure consistent left padding */
     text-align: left; /* Align text to the left */
+    flex: auto;
 }
 
 .nav__list{
@@ -83,10 +85,6 @@ body {
     flex-direction: column;
     justify-items: center;
     background-color: gray;
-    width: 400px;
-    height: 100px;
-    padding: 40px;
-    border: 10px solid gray;
 }
 
 .box2{  
@@ -95,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     font-size: 1.5rem;
     font-weight: bold;
     flex-direction: column;
@@ -118,11 +116,21 @@ body {
 }
 .rounded-box1{
     background-color: white;
-    padding: 20px;
+    padding: 0px;
     border: 5px solid #3882F6;
-    border-radius: 25px; /* Makes the corners rounded */
-    width: 10vh;
-    height: 10vh;
+    border-radius: 10px; /* Makes the corners rounded */
+    width: 30vh;
+    height: 30vh;
+    display: flex; /* Ensure proper alignment */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    overflow: hidden; /* Prevent overflow of the image */
+}
+.rounded-box1 img {
+    width: 100%; /* Make the image fill the width */
+    height: 100%; /* Make the image fill the height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 0px; /* Match the rounded corners of the box */
 }
 .text-below-rounded-box1{
     display: flex;
